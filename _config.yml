@@ -3,7 +3,9 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# url:                   https://username.github.io
+# url:                   https://Yuki-11.github.io
+repository: YoshikiMatsumoto/Yoshiki_01.github.io
+
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -12,15 +14,15 @@
 # baseurl:               '/hydejack-starter-kit'
 
 
-# General settings
+# General settings 
 # ---------------------------------------------------------------------------------------
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  "en"
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Starter Kit
+title:                Yoshiki Matsumoto
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -29,32 +31,63 @@ description:           >
   with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline: <br> Senior in college <br> <a href='https://www.toyota-ti.ac.jp/Lab/Denshi/iim/index.html'>Intelligent Information Media Lab</a> <br> <a href='https://www.toyota-ti.ac.jp/english/'>Toyota Technological Institute</a> <br> Research： Deep Learning / Computer Vision / Super Resolution / Segmentation 
+# Change `tagline` in `_config.yml`
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [Matsumoto，Yoshiki，Aisin，Toyota Technological Institute, Semiconductor Lab，Deep learning，Computer vision]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+logo:  https://avatars.githubusercontent.com/u/62691917?v=4
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
-  # # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  picture:  https://avatars.githubusercontent.com/u/
+  name:                Yoshiki Matsumoto
+  # email:               yuki.kondo.ab@gmail.com
+  social:
+    twitter: 
+    github:  https://github.com/YoshikiMatsumoto
+    email:   someday.19910112@gmail.com
+  # about: |
+  #   Hi, I'm Florian or @qwtel...
+
+  #   This is another paragraph.
+  
+
+
+  # # # Used by `jekyll-seo-tag`:
+  # twitter:             youkey_11
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
-  - title:             About
-    url:               /about/
+  # - title:             Example
+  #   url:               /example/
+  # - title:             Documentation
+  #   url:               /docs/
+  - title:             Education 
+    url:               /education/
+  - title:             Profession 
+    url:               /profession/
+  - title:             Activity 
+    url:               /activity/
+  # - title:             About
+  #   url:               /about/
+  - title:             Biography 
+    url:               /biography/
+  - title:             Skills
+    url:               /skills/  
+  - title:             Papers
+    url:               /papers/
+  - title:             Awards
+    url:               /awards/
+  - title:             Blog
+    url:               /blog/     
+  - title:             Japanese version
+    url:               https://Yoshiki_01.github.io/ja
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -80,21 +113,24 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-theme: jekyll-theme-hydejack
-# remote_theme: hydecorp/hydejack@v9
+# theme: jekyll-theme-hydejack
+remote_theme: hydecorp/hydejack@v9.1.5 # hydejack@v9.0.0-rc.6
 
 
 # Customizaton
 # ----------------------------------------------------------------------------------------
  
+favicon: /assets/img/yk3.ico
+apple_touch_icon: /assets/img/yk3.png
+
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          /assets/img/blog/jeremy-bishop.jpg
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color:           rgb(25,55,71)
+theme_color:           rgb(8,46,57)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
@@ -118,7 +154,7 @@ defaults:
       path:            hyde/
     values:
       accent_color:    rgb(38,139,210)
-      theme_color:     rgb(32,32,32)
+      theme_color:     rgb(38,139,210)
       accent_image:
         background:    rgb(32,32,32)
         overlay:       false
@@ -170,11 +206,16 @@ kramdown:
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-# google_analytics:      UA-XXXXXXXX-X
+google_analytics:      UA-206616009-2
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-# disqus:                <username>
+disqus:                Yoshiki Matsumoto
+# ---
+  # layout:   post
+  # title:    Hello World
+  # comments: true
+# ---
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
@@ -334,6 +375,8 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-include-cache
   - jekyll-last-modified-at
+  - jekyll-target-blank
+  # - jekyll-polyglot
 
 
 # SEO Tag
@@ -349,8 +392,8 @@ plugins:
 #   yandex:              <verification-id>
 
 # Used for twitter cards
-# twitter:
-#   username:            <username>
+twitter:
+  username:            yoshiki
 
 # Used for facebook open graph
 # facebook:
@@ -359,11 +402,11 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+social:
+  name:               Yoshiki Matsumoto
+  links:
+    - 
+    - https://github.com/YoshikiMatsumoto
 
 
 # Plugin Configs
@@ -383,7 +426,7 @@ titles_from_headings:
   collections:         true
 
 compress_html:
-  comments:            ["<!--", "-->"]
+  comments:            ["<!-- ", " -->"]
   clippings:           all
   endings:             all
   ignore:
@@ -403,21 +446,30 @@ jekyll_compose:
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/blog/jeremy-bishop.jpg
     posts:
       layout: post
       description: > 
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/blog/jeremy-bishop.jpg
     projects:
       layout: project
       description: > 
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/blog/jeremy-bishop.jpg
       links:
         - title: Project Link
           url: https://example.com
+
+# Jekyll polyglot
+# ---------------------------------------------------------------------------------------
+# languages: ['ja', 'en']
+# default_lang: 'en'
+# exclude_from_localization: ['javascript', 'images', 'css']
+# # parallel_localization: false
+
+github : [metadata]
