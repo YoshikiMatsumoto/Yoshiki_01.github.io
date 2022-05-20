@@ -206,3 +206,14 @@ keybase:
 download:
   name: Download
   icon: icon-box-add
+# googlescholar:
+#   name: Google Scholar
+#   prepend: "https://www.researchgate.net/profile/"
+#   icon: icon-box-add
+# researchgate:
+#   name: Research Gate
+#   prepend: "https://www.researchgate.net/profile/"
+  icon: icon-box-add
+atcoder:
+  name: Atcoder
+  prepend: "https://atcoder.jp/users/"

@@ -1,4 +1,5 @@
-<!-- <script>
+
+<script>
   document.querySelector('hy-push-state').setAttribute('prefetch', '');
 
   document.querySelectorAll('.sidebar a[href^="/"]').forEach(function (el) { 
@@ -10,11 +11,36 @@
       }
     });
   });
-</script> -->
+</script>
+
+<script>
+  var links = document.links;
+  for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+    if (links[i].hostname != window.location.hostname || links[i].href.indexOf('ja') != -1) {
+      links[i].target = '_blank';
+    } 
+  }
+</script>
+
+
+<script>
+  if（location.href.indexOf('reload'==-1){
+      location.href = location.href + '？reload';
+  } 
+</script>
+
 
 <!--
 Code for integrating CloudFlare's email protection with Hydejack's single page app loading.
 -->
+<script type = "text/javascript">
+  if（location.href.indexOf('reload'）==-1）
+  
+  {
+      location.href = location.href + '？reload';
+  } 
+</script>
+
 <script>
   document.getElementById('_pushState').addEventListener('hy-push-state-after', function (e) {
     function e(e){
@@ -103,5 +129,6 @@ Example code for using Matamo as alternative analytics solution.
 
   window.loadJSDeferred('{{site.matomo_analytics.root}}piwik.js');
 </script>
+
 {% endif %}
 {% endcomment %}

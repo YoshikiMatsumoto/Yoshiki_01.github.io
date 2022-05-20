@@ -4,8 +4,7 @@
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
 # url:                   https://Yuki-11.github.io
-repository: YoshikiMatsumoto/Yoshiki_01.github.io
-
+repository: Yuki-11/Yuki-11.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -22,7 +21,7 @@ repository: YoshikiMatsumoto/Yoshiki_01.github.io
 lang:                  "en"
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                Yoshiki Matsumoto
+title:                Yuki Kondo
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -35,7 +34,7 @@ tagline: <br> Senior in college <br> <a href='https://www.toyota-ti.ac.jp/Lab/De
 # Change `tagline` in `_config.yml`
 
 # A list of keywords for your blog
-keywords:              [Matsumoto，Yoshiki，Aisin，Toyota Technological Institute, Semiconductor Lab，Deep learning，Computer vision]
+keywords:              [Kondo，Yuki，Toyota，Toyota Technological Institute, Intelgence Infomation Media Lab，Deep learning，Computer vision]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -45,13 +44,13 @@ logo:  https://avatars.githubusercontent.com/u/62691917?v=4
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  picture:  https://avatars.githubusercontent.com/u/
-  name:                Yoshiki Matsumoto
+  picture:  https://avatars.githubusercontent.com/u/62691917?v=4
+  name:                Yuki Kondo
   # email:               yuki.kondo.ab@gmail.com
   social:
-    twitter: 
-    github:  https://github.com/YoshikiMatsumoto
-    email:   someday.19910112@gmail.com
+    twitter: https://twitter.com/youkey_11
+    github:  https://github.com/Yuki-11
+    email:   yuki.kondo.ab@gmail.com
   # about: |
   #   Hi, I'm Florian or @qwtel...
 
@@ -87,7 +86,7 @@ menu:
   - title:             Blog
     url:               /blog/     
   - title:             Japanese version
-    url:               https://Yoshiki_01.github.io/ja
+    url:               https://yuki-11.github.io/ja
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -210,7 +209,7 @@ google_analytics:      UA-206616009-2
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-disqus:                Yoshiki Matsumoto
+disqus:                Yuki Kondo
 # ---
   # layout:   post
   # title:    Hello World
@@ -393,7 +392,7 @@ plugins:
 
 # Used for twitter cards
 twitter:
-  username:            yoshiki
+  username:            youkey_11
 
 # Used for facebook open graph
 # facebook:
@@ -403,10 +402,10 @@ twitter:
 
 # Used on index and about sites
 social:
-  name:               Yoshiki Matsumoto
+  name:               Yuki Kondo
   links:
-    - 
-    - https://github.com/YoshikiMatsumoto
+    - https://twitter.com/youkey_11
+    - https://github.com/Yuki-11
 
 
 # Plugin Configs
